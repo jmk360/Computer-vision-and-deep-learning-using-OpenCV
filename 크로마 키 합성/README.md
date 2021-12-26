@@ -28,3 +28,18 @@
 * 마스크 연산을 지원하는 cv2.copyTo() 함수 사용
 
 ![image](https://user-images.githubusercontent.com/64933820/147403591-b50c4498-f05e-48c0-825f-5894d49353f2.png)
+
+---
+
+## 웹캠 영상에서 body 영역 추출하기
+* 웹캠 영상을 HSV 색 공간으로 변환
+* cv2.inRange() 함수를 사용하여 0 <= H <= 179, 0 <= S <= 88, 0 <= V <= 255 범위의 영역을 검출
+
+![화면 캡처 2021-12-26 221357](https://user-images.githubusercontent.com/64933820/147409553-e06f7aae-17d2-4d9e-881d-207addc0247e.png)
+
+---
+
+## raining.mp4 영상에 body 영역을 합성하기
+* 마스크 연산을 지원하는 cv2.copyTo() 함수 사용
+
+![image](https://user-images.githubusercontent.com/64933820/147409640-08190d82-d198-43d5-a2be-78871bfacf0c.png)
